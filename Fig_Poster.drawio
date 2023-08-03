@@ -146,7 +146,7 @@
                 <mxCell id="9" value="&lt;font face=&quot;Roboto&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;PUBLICATIONS&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fontSize=21;fontStyle=1" vertex="1" parent="1">
                     <mxGeometry x="1354.5" y="710" width="320" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Sample pipeline&amp;nbsp; creation of phenotypic FAIR data objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
+                <mxCell id="11" value="Sample pipeline creation of phenotypic FAIR data objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
                     <mxGeometry x="610" y="660" width="600" height="30" as="geometry"/>
                 </mxCell>
             </root>
