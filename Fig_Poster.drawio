@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="5ZvDu0B-BvRj65fo0EQc">
-        <mxGraphModel dx="4609" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1850" pageHeight="1850" math="0" shadow="0">
+        <mxGraphModel dx="5200" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1850" pageHeight="1850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="145" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;direction=south;dashPattern=1 1;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="361.25" width="1720" height="1120" as="geometry"/>
+                    <mxGeometry x="20" y="361.25" width="1740" height="1120" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;fontColor=#000000;" parent="1" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -350,6 +350,15 @@
                 <mxCell id="116" value="&lt;font data-font-src=&quot;https://fonts.google.com/specimen/Roboto&quot; face=&quot;Roboto&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;DATA STORAGE&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="142" vertex="1">
                     <mxGeometry x="60" y="20" width="230" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="180" style="edgeStyle=none;html=1;strokeWidth=3;entryX=0.997;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="146" target="177">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="880" y="520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1730" y="1250"/>
+                            <mxPoint x="1730" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="146" value="&lt;b&gt;TRUSTED REPOSITORIES&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="1380" width="238.5" height="70" as="geometry"/>
                 </mxCell>
@@ -365,8 +374,14 @@
                 <mxCell id="155" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;spacing=3;strokeWidth=3;" parent="1" source="152" target="153" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="178" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" parent="1" source="152" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="152" value="&lt;b&gt;Guided by Data Management Plan (DMP)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="630.75" y="640" width="238.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" style="edgeStyle=none;html=1;entryX=1.004;entryY=0.42;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" source="153" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="153" value="&lt;b&gt;Follows Community Standards&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="640" width="238.5" height="70" as="geometry"/>
@@ -420,6 +435,36 @@
                 </mxCell>
                 <mxCell id="176" value="Sample pipeline creation of phenotypic FAIR data objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
                     <mxGeometry x="-1180" y="830" width="600" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="&lt;b&gt;PIDs&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="630.75" y="490" width="238.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" style="edgeStyle=none;html=1;strokeWidth=3;" edge="1" parent="1" source="181" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="181" target="152">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="181" target="153">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="181" target="146">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="480"/>
+                            <mxPoint x="1750" y="470"/>
+                            <mxPoint x="1750" y="1415"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="181" value="&lt;b&gt;Data policies&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="490" width="238.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="&lt;b&gt;Influence and define ecosystem components and their interactions&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="450" width="140" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Sample FAIR Data Ecosystem for Implementation in Plant breeding research&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="538" y="370" width="775" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
